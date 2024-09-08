@@ -1,0 +1,18 @@
+.HomePage {
+    .app-name {
+        font-size: 6rem;
+        margin: 70px auto;
+        color:black;
+        column-fill: auto;
+        background-color: azure;
+    }
+    .team-grid {
+        display: flow-root;
+        column-fill: auto;
+        grid-template-columns: 1fr 1fr;
+        column-rule-color: beige;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        color: aquamarine;
+    }
+}
